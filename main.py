@@ -4,8 +4,7 @@ problem = problem_list[randint(0,len(problem_list)-1)]
 print('We faced - ', problem)
 list_of_heroes = 
 [input(), input(), input()]
-print('this superheroes',)
-
+print('this superheroes',list_of_heroes, 'went a mission')
 
 
 
