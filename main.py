@@ -1,6 +1,13 @@
 from random import randint
-list_1 = (1,2,3,4,5,6,7,8,9,10,11)
-print('Number - ', list_1[randint(0,12)])
+problem_list = ['Living Gigant Tree','Monster Spirit', 'Black Dragon', 'Herobrine', 'Godzilla']
+problem = problem_list[randint(0,len(problem_list)-1)]
+print('We faced - ', problem)
+list_of_heroes = 
+[input(), input(), input()]
+print('this superheroes',list_of_heroes, 'went a mission')
+
+
+
 
 
 
