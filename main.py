@@ -20,28 +20,7 @@ list.append(input())
 print(list)
 print(list[randint(0, 4)])
 
-# list = [randint(0, 10), randint(0, 10), randint(0, 10), randint(0, 10), randint(0, 10)]
 
-# print(list)
-
-# list1 = []
-# list1.append(randint(0, 10))
-# list1.append(randint(0, 10))
-# list1.append(randint(0, 10))
-# list1.append(randint(0, 10))
-# list1.append(randint(0, 10))
-# print(list1)
-
-# list = (1, 2, 3)
-# print(list[0])
-
-# problem_list = ['Living Gigant Tree','Monster Spirit', 'Black Dragon', 'Herobrine', 'Godzilla']
-
-# problem = problem_list[randint(0,len(problem_list)-1)]
-# print('We faced - ', problem)
-
-# list_of_heroes = [input(), input(), input()]
-# print('this superheroes',list_of_heroes, 'went a mission')
 
 
 
