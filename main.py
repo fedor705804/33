@@ -1,19 +1,36 @@
 from random import randint
 
-x = randint(0, 10)
-print()
+list = []
+# x = randint(0, 10)
+print('введи число от 0 до 1000 и нажми enter')
+list.append(input())
 
-list = [randint(0, 10), randint(0, 10), randint(0, 10), randint(0, 10), randint(0, 10)]
+print('введи число от 0 до 1000 и нажми enter')
+list.append(input())
+
+print('введи число от 0 до 1000 и нажми enter')
+list.append(input())
+
+print('введи число от 0 до 1000 и нажми enter')
+list.append(input())
+
+print('введи число от 0 до 1000 и нажми enter')
+list.append(input())
 
 print(list)
+print(list[randint(0, 4)])
 
-list1 = []
-list1.append(randint(0, 10))
-list1.append(randint(0, 10))
-list1.append(randint(0, 10))
-list1.append(randint(0, 10))
-list1.append(randint(0, 10))
-print(list1)
+# list = [randint(0, 10), randint(0, 10), randint(0, 10), randint(0, 10), randint(0, 10)]
+
+# print(list)
+
+# list1 = []
+# list1.append(randint(0, 10))
+# list1.append(randint(0, 10))
+# list1.append(randint(0, 10))
+# list1.append(randint(0, 10))
+# list1.append(randint(0, 10))
+# print(list1)
 
 # list = (1, 2, 3)
 # print(list[0])
