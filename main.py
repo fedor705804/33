@@ -1,24 +1,34 @@
 from random import randint
 
-list = []
+our_set = {'add'}
+print(our_set)
+
+our_set2 = set()
+our_set2.add('school')
+print(our_set2)
+
+our_set3 = our_set2.union(our_set)
+print(our_set3)
+print(our_set2)
+
 # x = randint(0, 10)
-print('введи число от 0 до 1000 и нажми enter')
-list.append(input())
+# print('введи число от 0 до 1000 и нажми enter')
+# list.append(input())
 
-print('введи число от 0 до 1000 и нажми enter')
-list.append(input())
+# print('введи число от 0 до 1000 и нажми enter')
+# list.append(input())
 
-print('введи число от 0 до 1000 и нажми enter')
-list.append(input())
+# print('введи число от 0 до 1000 и нажми enter')
+# list.append(input())
 
-print('введи число от 0 до 1000 и нажми enter')
-list.append(input())
+# print('введи число от 0 до 1000 и нажми enter')
+# list.append(input())
 
-print('введи число от 0 до 1000 и нажми enter')
-list.append(input())
+# print('введи число от 0 до 1000 и нажми enter')
+# list.append(input())
 
-print(list)
-print(list[randint(0, 4)])
+# print(list)
+# print(list[randint(0, 4)])
 
 
 
