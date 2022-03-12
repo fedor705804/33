@@ -1,37 +1,78 @@
-our_set = {'add'}
-print(our_set)
+var_1 = 2 
+var_2 = 1.1
+var_3 = 3
+var_4 = 3
+print(var_3 > var_4)
+print(var_3 >= var_4)
+print(var_1 <= var_2)
+print(var_1 == var_2)
+print(var_1 != var_2)
 
-our_set2 = set()
-our_set2.add('school')
-print(our_set2)
 
-our_set3 = our_set2.union(our_set)
-print(our_set3)
 
-print('')
-print('вещи на остров')
-things1 = set()
-things1.add('еда')
-things1.add('вода')
-things1.add('телефон')
-things1.add('спички')
-things1.add('fire')
-things1.add('walker-19')
-things1.add('книжка')
-things1.add('очистка воды')
-things1.add('палатка')
-things1.add('лодка')
-print(things1)
 
-things2 = set()
-things2.add('еда')
-things2.add('леска и крючки')
-things2.add('компас')
-things2.add('топорик')
-things2.add('спички')
-print(things2)
 
-print('')
-print(things1.union(things2))
 
-print(things1.difference(things2))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# my_dool = True
+# my_dool_False = False
+# my_int = 0
+# my_string = 'd'
+# my_fioat = 1.25
+# my_list = ['Сергей']
+# my_set = {0}
+# my_disc = {'key':'value'}
+# print('my_int',
+# bool(my_int))
+# print('my_string',
+# bool(my_string))
+# print('my_float',
+# str(my_fioat))
+# print('my_string',
+# float(my_string))
