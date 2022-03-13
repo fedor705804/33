@@ -7,19 +7,15 @@ my_dict = {"Minecraft" : 'люблю',
            "Играть" : 'люблю',
            "Stalker" : 'люблю'}
 
-question_1 = 'Угадай, что я люблю: '
+question_1 = 'Угадай, что я люблю за 3 попытки: '
 result = 0
 
 print(question_1)
 if my_dict.get(input()) == 'люблю':
  result += 1  
-
-print(question_1)
-if my_dict.get(input()) == 'люблю':
+elif my_dict.get(input()) == 'люблю':
  result += 1  
-
-print(question_1)
-if my_dict.get(input()) == 'люблю':
+elif my_dict.get(input()) == 'люблю':
  result += 1  
 
 print('ты угадал ', result , 'раз')
