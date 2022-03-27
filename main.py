@@ -1,10 +1,11 @@
 for chih in range(0, 16, 3):
   print('ЧИХ=' + str(chih))
-  # print('ЧИХ №' + str(i))
+# print('мы вышли из цикла')
+
+print(chr(10))
   
-print('мы вышли из цикла')
-
-
-# while True:
-#  print('ЧИХ!')
-#  break
+chih = 0
+while chih < 16:
+  print('ЧИХ №' + str(chih))
+  chih = chih + 3
+ # break
