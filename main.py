@@ -28,10 +28,11 @@ for i in range(99999999999999999999999999999999999):
   result += 1
   print('ответ верный')
 
+ 
+ print('ты ответил на',result, 'балов'   )
+ 
  print('хотите пройти игру заново')
  print('0 - да, 1 - нет')
  last_answer = int(input('Введите ответ: '))
  if last_answer == 1:
   break
-
-# print('ты ответил на',result, 'балов'   )
